@@ -7,7 +7,7 @@ import * as exec from './exec';
 import { getVersionObject } from './libs/get-version';
 
 export async function isAvailable(): Promise<boolean> {
-  const res = await exec.exec(`pulumi`, [], true);
+  const res = await exec.exec(`yarn pnpify pulumi`, [], true);
   return res.stderr != '' && !res.success ? false : res.success;
 }
 

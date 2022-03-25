@@ -87233,7 +87233,7 @@ function getVersionObject(range) {
 
 function isAvailable() {
     return __awaiter(this, void 0, void 0, function* () {
-        const res = yield exec.exec(`pulumi`, [], true);
+        const res = yield exec.exec(`yarn pnpify pulumi`, [], true);
         return res.stderr != '' && !res.success ? false : res.success;
     });
 }
