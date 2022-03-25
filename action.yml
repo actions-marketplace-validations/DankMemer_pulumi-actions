@@ -1,6 +1,6 @@
 name: 'Dank Memer Pulumi CLI Action'
 author: Pulumi & Dank Memer
-description: Pulumi's GitHub Actions deploy apps and infrastructure to your cloud of choice, using just your favorite language and GitHub. - Dank Memer Fork
+description: Pulumi's GitHub Actions deploy apps and infrastructure to your cloud of choice. - Dank Memer Fork
 branding:
   icon: upload-cloud
   color: purple
