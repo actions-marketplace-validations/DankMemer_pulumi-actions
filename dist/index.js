@@ -87239,7 +87239,7 @@ function isAvailable() {
 }
 function run(...args) {
     return modules_awaiter(this, void 0, void 0, function* () {
-        yield exec_exec(`pulumi`, args, true);
+        yield exec_exec(`yarn pnpify pulumi`, args, true);
     });
 }
 function getPlatform() {

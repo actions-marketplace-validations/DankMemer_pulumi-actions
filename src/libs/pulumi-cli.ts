@@ -12,7 +12,7 @@ export async function isAvailable(): Promise<boolean> {
 }
 
 export async function run(...args: string[]): Promise<void> {
-  await exec.exec(`pulumi`, args, true);
+  await exec.exec(`yarn pnpify pulumi`, args, true);
 }
 
 export function getPlatform(): string | undefined {
