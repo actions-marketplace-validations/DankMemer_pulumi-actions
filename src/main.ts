@@ -27,6 +27,8 @@ const main = async () => {
     await pulumiCli.run('login', config.cloudUrl);
   }
 
+  return;
+
   const workDir = resolve(
     environmentVariables.GITHUB_WORKSPACE,
     config.workDir,

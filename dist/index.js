@@ -87318,6 +87318,7 @@ const main = () => modules_awaiter(void 0, void 0, void 0, function* () {
         core.debug(`Logging into ${config.cloudUrl}`);
         yield run('login', config.cloudUrl);
     }
+    return;
     const workDir = (0,external_path_.resolve)(environmentVariables.GITHUB_WORKSPACE, config.workDir);
     core.debug(`Working directory resolved at ${workDir}`);
     const stackArgs = {
