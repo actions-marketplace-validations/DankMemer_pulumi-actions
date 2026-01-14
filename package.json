@@ -48,7 +48,7 @@
     "@actions/io": "^1.1.2",
     "@actions/tool-cache": "^1.7.1",
     "@pulumi/pulumi": "3.26.1",
-    "dedent": "^0.7.0",
+    "dedent": "^1.7.1",
     "envalid": "^7.3.0",
     "got": "^11.8.3",
     "runtypes": "^6.5.1",
